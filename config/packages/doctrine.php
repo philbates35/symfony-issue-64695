@@ -13,7 +13,7 @@ return App::config([
             'validate_xml_mapping' => true,
             'naming_strategy' => 'doctrine.orm.naming_strategy.underscore',
             'identity_generation_preferences' => [
-                Doctrine\DBAL\Platforms\PostgreSQLPlatform::class => 'identity',
+                \Doctrine\DBAL\Platforms\PostgreSQLPlatform::class => 'identity',
             ],
             'auto_mapping' => true,
             'mappings' => [
