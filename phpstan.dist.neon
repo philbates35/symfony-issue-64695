@@ -1,8 +1,10 @@
+includes:
+    - phar://vendor/phpstan/phpstan/phpstan.phar/conf/bleedingEdge.neon
+
 parameters:
-    level: 6
+    level: max
     paths:
         - bin/
         - config/
         - public/
         - src/
-        - tests/
